@@ -89,6 +89,10 @@ hr{
     margin-left: 4px;
     text-transform: capitalize;
 }
+.card-img, .card-img-bottom, .card-img-top {
+    object-fit: cover;
+    height: 200px;
+}
 
 .content{
     padding-top: 2px;
