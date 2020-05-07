@@ -1,44 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Dublin-360-CI</title>
-    <link rel="apple-touch-icon" sizes="180x180" href="media/images/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="media/images/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="media/images/favicon/favicon-16x16.png">
-    <link rel="manifest" href="media/images/favicon/site.webmanifest">
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="media/images/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="media/images/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="media/images/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="media/images/favicon/site.webmanifest" />
     <!---Bootstrap CDN-->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="./css/myStyle.css">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="./css/myStyle.css" />
     <!--Fontawesome CDN-->
-    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
-    
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"
+    ></script>
   </head>
-  <div class="container-fluid main-container">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <body>
+    <div class="container-fluid main-container">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand" href="./index.html">Dublin-360-CI</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarTogglerDemo02"
+          aria-controls="navbarTogglerDemo02"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
           <span class="navbar-toggler-icon"></span>
         </button>
-      
+
         <div class="collapse navbar-collapse" id="navbarMainToggler">
           <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="#"
+                >Home <span class="sr-only">(current)</span></a
+              >
             </li>
             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Categories
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <a class="dropdown-item" href="#bars">Bars</a>
-                  <a class="dropdown-item" href="#parks">Parks</a>
-                  <a class="dropdown-item" href="#attractions">Attractions</a>
-                  <a class="dropdown-item" href="#museums">Museums</a>
-                  <a class="dropdown-item" href="#landmarks">Landmarks</a>
-                </div>
-              </li>
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdownMenuLink"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Categories
+              </a>
+              <div
+                class="dropdown-menu"
+                aria-labelledby="navbarDropdownMenuLink"
+              >
+                <a class="dropdown-item" href="#bars">Bars</a>
+                <a class="dropdown-item" href="#parks">Parks</a>
+                <a class="dropdown-item" href="#attractions">Attractions</a>
+                <a class="dropdown-item" href="#museums">Museums</a>
+                <a class="dropdown-item" href="#landmarks">Landmarks</a>
+              </div>
+            </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Contact</a>
             </li>
@@ -47,27 +90,143 @@
       </nav>
       <!---Main Hero Jumbotron-->
       <div class="jumbotron-fluid">
-
-      </div> <!--end of Jumbotron-->
-      <!--Main -Categories Tabs-->
-      <div class="container-fluid bodyContainer">
-          <section class="categoriesTab">
-
-          </section>
+        <div class="title-logo">
+          <img
+            src="media/images/Logo.png"
+            alt="D360 Logo"
+            width="225"
+            height="80"
+            class="image"
+          />
+        </div>
+        <h1 class="display-4">See the City!</h1>
+        <p class="lead">
+          A place to find and visit all your favourite Dublin places in 360° format!
+        </p>
+        <hr class="my-4" />
+        <p>
+         Some text here
+        </p>
+        <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
       </div>
+      <!--end of Jumbotron-->
 
+      <!--Main -Categories Tabs-->
+      <section class="categoriesTab"></section>
+      <!-- End of Categories Tab-->
+      <!----Cards section-->
+      <section class="cards-section">
+        <div class="container" id="bars">
+          <h2 class="title">Bars <span class="badge badge-secondary" id="barCount"></span></h2>
+          <hr />
+          <div class="row">
+            <div class="col-sm-4">
+              <div class="card">
+                <img
+                  src="media/images/stagsHead.jpg"
+                  class="card-img-top"
+                  alt="Stags Head"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Stags Head</h5>
+                  <p class="card-text">
+                    The Stags Head is a traditional Irish pub with traditional
+                    Irish music and food in Dublin city centre. Enjoy a breath
+                    of fresh air when visiting the Stag’s Head, just a stones
+                    throw from the buzz of Grafton St. Here you will cross into
+                    a landmark with enough history it could occupy a library.
+                  </p>
+                  <a href="#" class="btn btn-primary">See Inside</a>
+                </div>
+                <div class="card-footer text-muted">
+                  <div class="card-body">
+                    <a href="#" class="card-link">Website</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="card">
+                <img src="..." class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="card">
+                <img src="..." class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--End of Cards Section-->
+      <!--- Footer-->
+      <footer class="main-footer">
+      <div class="row">
+      <div class="col-xs-4">Icon</div>
+      <div class="col-xs-4">Menu</div>
+      <div class="col-xs-4 social-icons">
+      <ul class="social-list" style="display:flex; list-style: none;">
+        <li><i class="fab fa-facebook-square"></i>Facebook </li>
+        <li><i class="fab fa-instagram"></i>Instagram </li>
+        <li><i class="fab fa-youtube"></i>Youtube </li>
+      </ul>
+      </div>
+      </div>
+      </footer>
+      <!--End of Footer-->
+    </div>
 
-  </div>
-
-  <script>
-  document.getElementById("barCount").innerHTML  = document.querySelectorAll('#barCols .title').length; 
-  document.getElementById("attractionCount").innerHTML  = document.querySelectorAll('#attractionCols .title').length; 
-  document.getElementById("museumCount").innerHTML  = document.querySelectorAll('#museumCols .title').length; 
-  document.getElementById("parkCount").innerHTML  = document.querySelectorAll('#parkCols .title').length; 
-  document.getElementById("landmarkCount").innerHTML  = document.querySelectorAll('#landmarkCols .title').length; 
-  </script>
- <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
- <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script>
+      document.getElementById("barCount").innerHTML ="("+ document.querySelectorAll(
+        "#bars .card-title"
+      ).length +")";
+      document.getElementById(
+        "attractionCount"
+      ).innerHTML = document.querySelectorAll(
+        "#attractionCols .card-title"
+      ).length;
+      document.getElementById(
+        "museumCount"
+      ).innerHTML = document.querySelectorAll("#museumCols .card-title").length;
+      document.getElementById(
+        "parkCount"
+      ).innerHTML = document.querySelectorAll("#parkCols .card-itle").length;
+      document.getElementById(
+        "landmarkCount"
+      ).innerHTML = document.querySelectorAll(
+        "#landmarkCols .card-title"
+      ).length;
+    </script>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
