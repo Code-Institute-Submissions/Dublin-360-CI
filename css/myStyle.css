@@ -1,10 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700,900|Poppins:400,500,600,700,800&display=swap');
 
+
+body{
+    padding:0;
+    font-family: 'Poppins', sans-serif;
+    font-weight:500;
+}
+
+p{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: #fff;
+}
 nav {
     display: block;
     width: 90%;
     text-align: center;
     margin: auto;
     padding: 10px;
+}
+
+.jumbotron-fluid {
+   background-image: url('../media/images/grogansHDR.jpg');
+   min-height: 60vh;
+   position: sticky;
+   color: #fff;
+  /* Create the parallax scrolling effect */
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+
+   text-align: center;
+
 }
 
 h2 {
@@ -17,7 +45,13 @@ h2 {
     font-weight: bold;
 }
 
-.subtitle{
+.card{
+    background-color: #333333;
+    margin-bottom: 4px;
+}
+
+.card-title{
+    color: #fff;
     font-size: 1.4em;
     font-weight: 800;
     margin-top: 8px;
@@ -32,4 +66,39 @@ h2 {
     text-align: justify;
 }
 
+.btn{
+    background-color: #333333;
+    border-color:aliceblue;
+}
 
+.active{
+    background-color: #333333;
+}
+.main-footer .row{
+    display: block;
+    background-color: #333333;
+    color: #fff;
+  
+}
+.footer-icon, .footer-menu {
+    display: block;
+
+}
+
+
+.social-menu li{
+    padding: 10px;
+    margin-left: 2px;
+}
+
+.social-list{
+   display: flex;
+   list-style: none;
+
+}
+
+
+.social-list svg{
+    margin-right: 4px;
+    font-size: 36px;
+}

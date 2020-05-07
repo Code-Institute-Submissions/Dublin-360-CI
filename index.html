@@ -29,7 +29,7 @@
       integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" type="text/css" href="./css/myStyle.css" />
+    <link rel="stylesheet" type="text/css" href="css/myStyle.css" />
     <!--Fontawesome CDN-->
     <script
       defer
@@ -101,23 +101,52 @@
         </div>
         <h1 class="display-4">See the City!</h1>
         <p class="lead">
-          A place to find and visit all your favourite Dublin places in 360° format!
+          A place to find and visit all your favourite Dublin places in 360°
+          format!
         </p>
         <hr class="my-4" />
         <p>
-         Some text here
+          Some text here
         </p>
         <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
       </div>
       <!--end of Jumbotron-->
-
+      <hr />
       <!--Main -Categories Tabs-->
-      <section class="categoriesTab"></section>
+      <section class="categoriesTab">
+        <ul class="list-group">
+          <li
+            class="list-group-item d-flex justify-content-between align-items-center active"
+          >
+            Categories
+          </li>
+          <li
+            class="list-group-item d-flex justify-content-between align-items-center"
+          >
+            Bars
+            <span class="badge badge-primary badge-pill" id="barCount"></span>
+          </li>
+          <li
+            class="list-group-item d-flex justify-content-between align-items-center"
+          >
+            Parks
+            <span class="badge badge-primary badge-pill">2</span>
+          </li>
+          <li
+            class="list-group-item d-flex justify-content-between align-items-center"
+          >
+            Museums
+            <span class="badge badge-primary badge-pill">1</span>
+          </li>
+        </ul>
+      </section>
       <!-- End of Categories Tab-->
       <!----Cards section-->
       <section class="cards-section">
         <div class="container" id="bars">
-          <h2 class="title">Bars <span class="badge badge-secondary" id="barCount"></span></h2>
+          <h2 class="title">
+            Bars <span class="badge badge-secondary" id="barCount"></span>
+          </h2>
           <hr />
           <div class="row">
             <div class="col-sm-4">
@@ -136,7 +165,7 @@
                     throw from the buzz of Grafton St. Here you will cross into
                     a landmark with enough history it could occupy a library.
                   </p>
-                  <a href="#" class="btn btn-primary">See Inside</a>
+                  <a href="#" class="btn btn-primary">See Inside 360 &deg;</a>
                 </div>
                 <div class="card-footer text-muted">
                   <div class="card-body">
@@ -147,22 +176,43 @@
             </div>
             <div class="col-sm-4">
               <div class="card">
-                <img src="..." class="card-img-top" alt="..." />
+                <img
+                  src="media/images/grogansHDR.jpg"
+                  class="card-img-top"
+                  alt="grogans pub"
+                />
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
+                  <h5 class="card-title">Grogans Pub</h5>
                   <p class="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
+                    A warm and friendly atmosphere that you would expect from
+                    your local, but with the lively buzz and intensity of an
+                    authentic Dublin city pub. Relax with a drink and toastie
+                    Open 7 days a week, Grogans is the perfect spot to grab a
+                    light snack, a pint of porter or a pot of tea. Our famous
+                    toasties made with Irish cheddar cheese and traditional deli
+                    ham are available throughout the day and night. If you ask
+                    us for a ‘Special’ we guarantee that you will not be
+                    disappointed. Enjoy the conversation and atmosphere One of
+                    the few bars left where your conversation needn’t compete
+                    with a wide screen TV or stereo. Grogans is the perfect spot
+                    for catching up with friends or taking time out alone with
+                    the newspaper. With a varied clientele and good-humoured,
+                    friendly staff you can be sure of a warm welcome every
+                    visit.
                   </p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                  <a href="#" class="btn btn-primary">See Inside 360 &deg;</a>
                 </div>
               </div>
             </div>
             <div class="col-sm-4">
               <div class="card">
-                <img src="..." class="card-img-top" alt="..." />
+                <img
+                  src="media/images/kehoesBar.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
+                  <h5 class="card-title">Kehoes</h5>
                   <p class="card-text">
                     Some quick example text to build on the card title and make
                     up the bulk of the card's content.
@@ -177,25 +227,24 @@
       <!--End of Cards Section-->
       <!--- Footer-->
       <footer class="main-footer">
-      <div class="row">
-      <div class="col-xs-4">Icon</div>
-      <div class="col-xs-4">Menu</div>
-      <div class="col-xs-4 social-icons">
-      <ul class="social-list" style="display:flex; list-style: none;">
-        <li><i class="fab fa-facebook-square"></i>Facebook </li>
-        <li><i class="fab fa-instagram"></i>Instagram </li>
-        <li><i class="fab fa-youtube"></i>Youtube </li>
-      </ul>
-      </div>
-      </div>
+        <div class="row">
+          <div class="col-xs-4 footer-icon"><p>Hello</p></div>
+          <div class="col-xs-4 footer-menu"><p>Helloo ooo</p></div>
+          <div class="col-xs-4 social-menu">
+            <ul class="social-list">
+              <li><i class="fab fa-facebook-square"></i>Facebook</li>
+              <li><i class="fab fa-instagram"></i>Instagram</li>
+              <li><i class="fab fa-youtube"></i>Youtube</li>
+            </ul>
+          </div>
+        </div>
       </footer>
       <!--End of Footer-->
     </div>
 
     <script>
-      document.getElementById("barCount").innerHTML ="("+ document.querySelectorAll(
-        "#bars .card-title"
-      ).length +")";
+      document.getElementById("barCount").innerHTML =
+        "(" + document.querySelectorAll("#bars .card-title").length + ")";
       document.getElementById(
         "attractionCount"
       ).innerHTML = document.querySelectorAll(
