@@ -32,7 +32,23 @@ nav {
    background-size: cover;
 
    text-align: center;
+   z-index: -1;
+   margin-bottom: 20px;
 
+
+}
+.jumbotron-overlay{
+    background-color: rgba(36, 36, 49, 0.82);
+    min-height: 60vh;
+    z-index: 1;
+}
+
+.title-logo{
+    padding-top: 120px;
+}
+
+.lead {
+    padding: 20px;
 }
 
 h2 {
@@ -42,12 +58,27 @@ h2 {
     margin-block-end: 0.83em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-    font-weight: bold;
+    font-weight: 800;
+}
+hr{
+    background-color: red;
+    max-width: 70%;
+    border-top: 4px solid rgba(0,0,0,.1);
 }
 
+.list-group-item.active{
+    background-color: #333333;
+}
+.list-group-item svg{
+    font-size: 1.2em;
+}
+
+.badge-pill{
+    padding: 8px;
+}
 .card{
     background-color: #333333;
-    margin-bottom: 4px;
+    margin-bottom: 6px;
 }
 
 .card-title{
@@ -69,6 +100,7 @@ h2 {
 .btn{
     background-color: #333333;
     border-color:aliceblue;
+    margin-bottom: 20px;
 }
 
 .active{

@@ -38,21 +38,21 @@
   </head>
   <body>
     <div class="container-fluid main-container">
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="./index.html">Dublin-360-CI</a>
+      <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="./index.html"><img src="./media/images/Logo.png" width="100px" height="36px"></a>
         <button
           class="navbar-toggler"
           type="button"
           data-toggle="collapse"
-          data-target="#navbarTogglerDemo02"
-          aria-controls="navbarTogglerDemo02"
+          data-target="#navbarToggler"
+          aria-controls="navbarToggler"
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
           <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse" id="navbarMainToggler">
+        <div class="collapse navbar-collapse" id="navbarToggler">
           <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
             <li class="nav-item active">
               <a class="nav-link" href="#"
@@ -90,6 +90,7 @@
       </nav>
       <!---Main Hero Jumbotron-->
       <div class="jumbotron-fluid">
+      <div class="jumbotron-overlay">
         <div class="title-logo">
           <img
             src="media/images/Logo.png"
@@ -109,50 +110,53 @@
           Some text here
         </p>
         <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+        </div>
       </div>
       <!--end of Jumbotron-->
-      <hr />
       <!--Main -Categories Tabs-->
       <section class="categoriesTab">
+        <div class="container" id="categories">
         <ul class="list-group">
           <li
             class="list-group-item d-flex justify-content-between align-items-center active"
           >
-            Categories
+            <h2 class="title">Categories</h2>
           </li>
           <li
             class="list-group-item d-flex justify-content-between align-items-center"
-          >
+          ><i class="fas fa-beer"></i>
             Bars
-            <span class="badge badge-primary badge-pill" id="barCount"></span>
+            <span class="badge badge-secondary badge-pill" id="barCount"></span>
           </li>
           <li
             class="list-group-item d-flex justify-content-between align-items-center"
-          >
+          ><i class="fas fa-tree"></i>
             Parks
-            <span class="badge badge-primary badge-pill">2</span>
+            <span class="badge badge-secondary badge-pill">( 2 )</span>
           </li>
           <li
             class="list-group-item d-flex justify-content-between align-items-center"
-          >
+          ><i class="fas fa-university"></i>
             Museums
-            <span class="badge badge-primary badge-pill">1</span>
+            <span class="badge badge-secondary badge-pill">( 10 )</span>
           </li>
         </ul>
+        </div>
       </section>
+      
       <!-- End of Categories Tab-->
       <!----Cards section-->
       <section class="cards-section">
         <div class="container" id="bars">
           <h2 class="title">
-            Bars <span class="badge badge-secondary" id="barCount"></span>
+            Bars <span class="badge badge-secondary"></span>
           </h2>
           <hr />
           <div class="row">
-            <div class="col-sm-4">
+            <div class="col-md-4">
               <div class="card">
                 <img
-                  src="media/images/stagsHead.jpg"
+                  src="media/images/stagsHead.png"
                   class="card-img-top"
                   alt="Stags Head"
                 />
@@ -174,7 +178,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-sm-4">
+            <div class="col-md-4">
               <div class="card">
                 <img
                   src="media/images/grogansHDR.jpg"
@@ -204,7 +208,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-sm-4">
+            <div class="col-md-4">
               <div class="card">
                 <img
                   src="media/images/kehoesBar.jpg"
@@ -228,23 +232,33 @@
       <!--- Footer-->
       <footer class="main-footer">
         <div class="row">
-          <div class="col-xs-4 footer-icon"><p>Hello</p></div>
-          <div class="col-xs-4 footer-menu"><p>Helloo ooo</p></div>
-          <div class="col-xs-4 social-menu">
+          <div class="col-xs-6 footer-icon"><p>Dublin-360 &copy;</p></div>
+          <div class="col-xs-6 social-menu">
             <ul class="social-list">
               <li><i class="fab fa-facebook-square"></i>Facebook</li>
               <li><i class="fab fa-instagram"></i>Instagram</li>
               <li><i class="fab fa-youtube"></i>Youtube</li>
             </ul>
           </div>
-        </div>
+          </div>
+      <ul class="nav footer-nav">
+  <li class="nav-item">
+    <a class="nav-link active" href="#">Active</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Link</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Link</a>
+  </li>
+</ul>
       </footer>
       <!--End of Footer-->
     </div>
 
     <script>
       document.getElementById("barCount").innerHTML =
-        "(" + document.querySelectorAll("#bars .card-title").length + ")";
+        "( " + document.querySelectorAll("#bars .card-title").length + " )";
       document.getElementById(
         "attractionCount"
       ).innerHTML = document.querySelectorAll(
