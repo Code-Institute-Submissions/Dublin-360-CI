@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:400,700,900|Poppins:400,500,600,700,800&display=swap');
 
 
+/* --Main Generic CSS----*/
 body{
     padding:0;
     font-family: 'Poppins', sans-serif;
@@ -20,6 +21,8 @@ nav {
     padding: 10px;
 }
 
+
+/* --Jumbotron CSS----*/
 .jumbotron-fluid {
    background-image: url('../media/images/grogansHDR.jpg');
    min-height: 60vh;
@@ -66,6 +69,8 @@ hr{
     border-top: 4px solid rgba(0,0,0,.1);
 }
 
+
+/* --Categories CSS----*/
 .list-group-item.active{
     background-color: #333333;
 }
@@ -76,6 +81,9 @@ hr{
 .badge-pill{
     padding: 8px;
 }
+
+
+/* --Cards CSS----*/
 .card{
     background-color: #333333;
     margin-bottom: 6px;
@@ -101,6 +109,8 @@ hr{
     text-align: justify;
 }
 
+
+/* --Button CSS----*/
 .btn{
     background-color: #333333;
     border-color:aliceblue;
@@ -110,17 +120,16 @@ hr{
 .active{
     background-color: #333333;
 }
-.main-footer .row{
-    display: block;
+
+
+/* --Footer CSS----*/
+.main-footer{
     background-color: #333333;
     color: #fff;
+    padding-top: 20px;
+    min-height: 120px;
   
 }
-.footer-icon, .footer-menu {
-    display: block;
-
-}
-
 
 .social-menu li{
     padding: 10px;
@@ -132,7 +141,6 @@ hr{
    list-style: none;
 
 }
-
 
 .social-list svg{
     margin-right: 4px;

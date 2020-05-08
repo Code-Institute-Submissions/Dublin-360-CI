@@ -39,7 +39,9 @@
   <body>
     <div class="container-fluid main-container">
       <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="./index.html"><img src="./media/images/Logo.png" width="100px" height="36px"></a>
+        <a class="navbar-brand" href="./index.html"
+          ><img src="./media/images/Logo.png" width="100px" height="36px"
+        /></a>
         <button
           class="navbar-toggler"
           type="button"
@@ -90,60 +92,68 @@
       </nav>
       <!---Main Hero Jumbotron-->
       <div class="jumbotron-fluid">
-      <div class="jumbotron-overlay">
-        <div class="title-logo">
-          <img
-            src="media/images/Logo.png"
-            alt="D360 Logo"
-            width="225"
-            height="80"
-            class="image"
-          />
-        </div>
-        <h1 class="display-4">See the City!</h1>
-        <p class="lead">
-          A place to find and visit all your favourite Dublin places in 360°
-          format!
-        </p>
-        <hr class="my-4" />
-        <p>
-          Some text here
-        </p>
-        <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+        <div class="jumbotron-overlay">
+          <div class="title-logo">
+            <img
+              src="media/images/Logo.png"
+              alt="D360 Logo"
+              width="225"
+              height="80"
+              class="image"
+            />
+          </div>
+          <h1 class="display-4">See the City!</h1>
+          <p class="lead">
+            A place to find and visit all your favourite Dublin places in 360°
+            format!
+          </p>
+          <hr class="my-4" />
+          <p>
+            Some text here
+          </p>
+          <a class="btn btn-primary btn-lg" href="#" role="button"
+            >Learn more</a
+          >
         </div>
       </div>
       <!--end of Jumbotron-->
       <!--Main -Categories Tabs-->
       <section class="categoriesTab">
         <div class="container" id="categories">
-        <ul class="list-group">
-          <li
-            class="list-group-item d-flex justify-content-between align-items-center active"
-          >
-            <h2 class="title">Categories</h2>
-          </li>
-          <li
-            class="list-group-item d-flex justify-content-between align-items-center"
-          ><i class="fas fa-beer"></i>
-            Bars
-            <span class="badge badge-secondary badge-pill" id="barCount"></span>
-          </li>
-          <li
-            class="list-group-item d-flex justify-content-between align-items-center"
-          ><i class="fas fa-tree"></i>
-            Parks
-            <span class="badge badge-secondary badge-pill">( 2 )</span>
-          </li>
-          <li
-            class="list-group-item d-flex justify-content-between align-items-center"
-          ><i class="fas fa-university"></i>
-            Museums
-            <span class="badge badge-secondary badge-pill">( 10 )</span>
-          </li>
-        </ul>
+          <ul class="list-group">
+            <li
+              class="list-group-item d-flex justify-content-between align-items-center active"
+            >
+              <h2 class="title">Categories</h2>
+            </li>
+            <li
+              class="list-group-item d-flex justify-content-between align-items-center"
+            >
+              <i class="fas fa-beer"></i>
+              Bars
+              <span
+                class="badge badge-secondary badge-pill"
+                id="barCount"
+              ></span>
+            </li>
+            <li
+              class="list-group-item d-flex justify-content-between align-items-center"
+            >
+              <i class="fas fa-tree"></i>
+              Parks
+              <span class="badge badge-secondary badge-pill">( 2 )</span>
+            </li>
+            <li
+              class="list-group-item d-flex justify-content-between align-items-center"
+            >
+              <i class="fas fa-university"></i>
+              Museums
+              <span class="badge badge-secondary badge-pill">( 10 )</span>
+            </li>
+          </ul>
         </div>
       </section>
-      
+
       <!-- End of Categories Tab-->
       <!----Cards section-->
       <section class="cards-section">
@@ -228,33 +238,40 @@
           </div>
         </div>
       </section>
-      <!--End of Cards Section-->
-      <!--- Footer-->
-      <footer class="main-footer">
-        <div class="row">
-          <div class="col-xs-6 footer-icon"><p>Dublin-360 &copy;</p></div>
-          <div class="col-xs-6 social-menu">
-            <ul class="social-list">
-              <li><i class="fab fa-facebook-square"></i>Facebook</li>
-              <li><i class="fab fa-instagram"></i>Instagram</li>
-              <li><i class="fab fa-youtube"></i>Youtube</li>
-            </ul>
-          </div>
-          </div>
-      <ul class="nav footer-nav">
-  <li class="nav-item">
-    <a class="nav-link active" href="#">Active</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#">Link</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#">Link</a>
-  </li>
-</ul>
-      </footer>
-      <!--End of Footer-->
     </div>
+    <!--End of Cards Section-->
+    <!--- Footer-->
+    <footer class="main-footer container-fluid">
+      <div class="row">
+      
+        <div class="col-sm-6 footer-icon">
+          <img src="./media/images/Logo.png" width="120" height="36px">
+           <h5>Dublin-360 &copy;</h5>
+           Made with Bootstrap [insert image]
+        </div>
+        <div class="col-sm-6 social-menu">
+        <h5>Social</h5>
+          <ul class="social-list">
+            <li class="list-inline-item"><a href="#" target="_blank"><i class="fab fa-facebook-square" aria-hidden="true"></i>Facebook<span class="sr-only">Facebook</span></a></li>
+            <li class="list-inline-item"><a href="#" target="_blank"><i class="fab fa-instagram" aria-hidden="true"></i>Instagram<span class="sr-only">Instagram</span></a></li>
+            <li class="list-inline-item"><a href="#" target="_blank"><i class="fab fa-linkedin" aria-hidden="true"></i>LinkedIn<span class="sr-only">LinkedIn</span></a></li>
+
+          </ul>
+        </div>
+      </div>
+      <ul class="nav footer-nav">
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Active</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+      </ul>
+    </footer>
+    <!--End of Footer-->
 
     <script>
       document.getElementById("barCount").innerHTML =
