@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Lato:400,700,900|Poppins:400,500,600,700,800&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900|Poppins:400,500,600,700,800&display=swap');
 
 
 /* --Main Generic CSS----*/
@@ -21,6 +21,9 @@ nav {
     padding: 10px;
 }
 
+.uppercase{
+    text-transform: uppercase;
+}
 
 /* --Jumbotron CSS----*/
 .jumbotron-fluid {
@@ -102,12 +105,14 @@ hr{
     height: 200px;
 }
 
-.content{
+.card-text {
     padding-top: 2px;
-    margin-top: 1px;
-    font-weight: 400;
+    margin-top: 4px;
+    font-weight: 300;
     text-align: justify;
 }
+
+
 
 
 /* --Button CSS----*/
@@ -131,6 +136,52 @@ hr{
   
 }
 
+.service-item {
+    padding: 2.5em 2em 0em 2em;
+    position: relative;
+    color: #fafafa;
+    border-left: 1px solid;
+}
+
+.service-item p {
+    padding: 0;
+    margin: 0;
+}
+
+.service-item:before {
+    content: attr(data-services);
+    position: absolute;
+    left: 2.5em;
+    top: 2em;
+    display: block;
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    font-size: 0.8em;
+    padding: 0;
+    margin: 0;
+}
+
+.service-item:after {
+    width: 12px;
+    height: 12px;
+    display: block;
+    top: 1.4em;
+    position: absolute;
+    left: -6px;
+    border-radius: 12px;
+    content: '';
+    background: #fafafa;
+}
+
+.service-item h5 {
+    font-size: 0.8em;
+}
+
+.service-item p {
+    font-size: 0.7em;
+}
+
+
 .social-menu li{
     padding: 10px;
     margin-left: 2px;
@@ -143,6 +194,12 @@ hr{
 }
 
 .social-list svg{
+    color: #fff;
     margin-right: 4px;
     font-size: 36px;
 }
+.social-list li a{
+    color: #fff;
+
+}
+
