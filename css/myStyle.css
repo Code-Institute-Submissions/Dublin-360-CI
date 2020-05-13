@@ -30,6 +30,13 @@ nav {
     padding-left:0;
 }
 
+/*-- custom styling for all icons --*/
+i.fas,
+i.fab {
+  padding-right: 6px;
+  color: red;
+}
+
 /* --Jumbotron CSS----*/
 .jumbotron-fluid {
    background-image: url('../media/images/grogansHDR.jpg');
@@ -79,15 +86,19 @@ hr{
 
 
 /* --Categories CSS----*/
+.categories-tab {
+    width: 65%;
+    margin: auto;
+}
 .list-group-item.active{
     background-color: #333333;
 }
-.list-group-item svg{
-    font-size: 1.2em;
+.list-group-item i{
+    font-size: 1.5em;
 }
 
-.badge-pill{
-    padding: 8px;
+.list-group-item a{
+    color: #333333;
 }
 
 
@@ -214,11 +225,12 @@ hr{
 
 }
 
-.social-list svg{
+.social-list li i{
     color: #fff;
     margin-right: 4px;
     font-size: 36px;
 }
+
 .social-list li a{
     color: #fff;
 

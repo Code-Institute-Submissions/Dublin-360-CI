@@ -29,6 +29,8 @@
       integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
       crossorigin="anonymous"
     />
+    <!-----Fontawesome CSS CDN-->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
     <link rel="stylesheet" type="text/css" href="css/myStyle.css" />
   </head>
   <body>
@@ -55,30 +57,6 @@
               <a class="nav-link" href="./index.html"
                 >Home <span class="sr-only">(current)</span></a
               >
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="navbarDropdownMenuLink"
-                role="button"
-                data-toggle="dropdown"
-                aria-haspopup="true"
-                aria-expanded="false"
-              >
-                Categories
-              </a>
-              <div
-                class="dropdown-menu"
-                aria-labelledby="navbarDropdownMenuLink"
-              >
-                <a class="dropdown-item" href="#bars">Bars</a>
-                <a class="dropdown-item" href="#parks">Parks</a>
-                <a class="dropdown-item" href="#attractions">Attractions</a>
-                <a class="dropdown-item" href="#museums">Museums</a>
-                <a class="dropdown-item" href="#landmarks">Landmarks</a>
-              </div>
-            </li>
             <li class="nav-item">
               <a class="nav-link" href="./services.html">Services</a>
             </li>
@@ -107,60 +85,47 @@
           </p>
           <hr class="my-4" />
           <p>
-            Some text here
+             & Hospitality Consultancy Services
           </p>
-          <a class="btn btn-primary btn-lg" href="#" role="button"
-            >Learn more</a
+          <a class="btn btn-primary btn-lg" href="./services.html" role="button"
+            >Services Offered</a
           >
         </div>
       </div>
       <!--end of Jumbotron-->
       <!--Main -Categories Tabs-->
-      <section class="categoriesTab">
+      <section class="categories-tab">
         <div class="container" id="categories">
           <ul class="list-group">
             <li
-              class="list-group-item d-flex justify-content-between align-items-center active"
+              class="list-group-item d-flex justify-content-center align-items-center active"
             >
               <h2 class="title">Categories</h2>
             </li>
             <li
-              class="list-group-item d-flex justify-content-between align-items-center"
+              class="list-group-item d-flex justify-content-center align-items-center"
             >
-              <i class="fas fa-beer"></i>
-              Bars
-              <span
-                class="badge badge-secondary badge-pill"
-                id="barCount"
-              ></span>
+              <a href="#bars"><i class="fas fa-beer"></i>Bars</a>
             </li>
             <li
-              class="list-group-item d-flex justify-content-between align-items-center"
+              class="list-group-item d-flex justify-content-center align-items-center"
             >
-              <i class="fas fa-tree"></i>
-              Parks
-              <span class="badge badge-secondary badge-pill">( 2 )</span>
+              <a href="#parks"><i class="fas fa-tree"></i>Parks</a>
             </li>
             <li
-              class="list-group-item d-flex justify-content-between align-items-center"
+              class="list-group-item d-flex justify-content-center align-items-center"
             >
-              <i class="fas fa-university"></i>
-              Attractions
-              <span class="badge badge-secondary badge-pill">( 10 )</span>
+              <a href="#attractions"><i class="fas fa-monument"></i>Attractions</a>
             </li>
             <li
-              class="list-group-item d-flex justify-content-between align-items-center"
+              class="list-group-item d-flex justify-content-center align-items-center"
             >
-              <i class="fas fa-university"></i>
-              Museums
-              <span class="badge badge-secondary badge-pill">( 10 )</span>
+              <a href="#museums"><i class="fas fa-ticket-alt"></i>Museums</a>
             </li>
             <li
-              class="list-group-item d-flex justify-content-between align-items-center"
+              class="list-group-item d-flex justify-content-center align-items-center"
             >
-              <i class="fas fa-university"></i>
-              Landmarks
-              <span class="badge badge-secondary badge-pill">( 10 )</span>
+              <a href="#landmarks"><i class="fas fa-landmark"></i>Landmarks</a>
             </li>
           </ul>
         </div>
@@ -339,11 +304,6 @@
       </main>
     </footer>
     <!--End of Footer-->
-    <!--Fontawesome CDN JS-->
-    <script
-      defer
-      src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"
-    ></script>
     <!--- Bootstrap JQuery Popper JS-->
     <script
       src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
