@@ -21,14 +21,22 @@ nav {
     padding: 10px;
 }
 
-.uppercase{
+.uppercase {
     text-transform: uppercase;
+}
+
+.container-fluid, 
+.container-lg, 
+.container-md, 
+.container-sm, 
+.container-xl{
+    padding:0;
 }
 
 /* --Jumbotron CSS----*/
 .jumbotron-fluid {
    background-image: url('../media/images/grogansHDR.jpg');
-   min-height: 60vh;
+   min-height: 50vh;
    position: sticky;
    color: #fff;
   /* Create the parallax scrolling effect */
@@ -45,7 +53,7 @@ nav {
 }
 .jumbotron-overlay{
     background-color: rgba(36, 36, 49, 0.82);
-    min-height: 60vh;
+    min-height: 50vh;
     z-index: 1;
 }
 
@@ -112,6 +120,17 @@ hr{
     text-align: justify;
 }
 
+.card-footer {
+    background-color:#222222;
+    margin: 0;
+    padding:0;
+
+}
+.card-footer .btn {
+    margin-left: 2px;
+
+}
+
 
 
 
@@ -136,6 +155,11 @@ hr{
   
 }
 
+#bootstrap-image img {
+    padding: 4px;
+    width: 40px;
+    height: 40px;
+}
 .service-item {
     padding: 2.5em 2em 0em 2em;
     position: relative;
