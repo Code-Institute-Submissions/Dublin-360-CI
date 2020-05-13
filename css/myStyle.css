@@ -241,3 +241,13 @@ hr{
 
 }
 
+/*-----Form CSS----------*/
+
+form{
+    width: 70%;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+

@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Dublin-360-CI</title>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="media/images/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="media/images/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="media/images/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="media/images/favicon/site.webmanifest" />
+    <!---Bootstrap CDN-->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <!-----Fontawesome CSS CDN-->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="css/myStyle.css" />
+  </head>
+  <body>
+    <main class="main-container" role="main">
+      <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="./index.html"
+          ><img src="./media/images/Logo.png" width="100px" height="36px"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarToggler"
+          aria-controls="navbarToggler"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarToggler">
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="./index.html"
+                >Home</a
+              >
+            <li class="nav-item">
+              <a class="nav-link active" href="./services.html">Services<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!---Main Hero Jumbotron-->
+      <div class="jumbotron-fluid">
+        <div class="jumbotron-overlay">
+          <div class="title-logo">
+            <img
+              src="media/images/Logo.png"
+              alt="D360 Logo"
+              width="225"
+              height="80"
+              class="image"
+            />
+          </div>
+          <h1 class="display-4">See the City!</h1>
+          <p class="lead">
+            A place to find and visit all your favourite Dublin places in 360°
+            format!
+          </p>
+          <hr class="my-4" />
+          <p>
+             & Hospitality Consultancy Services
+          </p>
+          <a href="./services.html" class="btn btn-info btn-lg" role="button"
+            >Services Offered</a
+          >
+        </div>
+      </div>
+      <!--end of Jumbotron-->
+      <!--Main -Categories Tabs-->
+      <section class="categories-tab">
+        <div class="container" id="categories">
+          <ul class="list-group">
+            <li
+              class="list-group-item d-flex justify-content-center align-items-center active"
+            >
+              <h2 class="title">Categories</h2>
+            </li>
+            <li
+              class="list-group-item d-flex justify-content-center align-items-center"
+            >
+              <a href="#bars"><i class="fas fa-beer"></i>Bars</a>
+            </li>
+            <li
+              class="list-group-item d-flex justify-content-center align-items-center"
+            >
+              <a href="#parks"><i class="fas fa-tree"></i>Parks</a>
+            </li>
+            <li
+              class="list-group-item d-flex justify-content-center align-items-center"
+            >
+              <a href="#attractions"><i class="fas fa-monument"></i>Attractions</a>
+            </li>
+            <li
+              class="list-group-item d-flex justify-content-center align-items-center"
+            >
+              <a href="#museums"><i class="fas fa-ticket-alt"></i>Museums</a>
+            </li>
+            <li
+              class="list-group-item d-flex justify-content-center align-items-center"
+            >
+              <a href="#landmarks"><i class="fas fa-landmark"></i>Landmarks</a>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- End of Categories Tab-->
+      <!----Cards section-->
+      <section class="cards-section">
+        <div class="container" id="bars">
+          <h2 class="title">
+            Bars <span class="badge badge-secondary"></span>
+          </h2>
+          <hr />
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card">
+                <img
+                  src="media/images/stagsHead.png"
+                  class="card-img-top"
+                  alt="Stags Head"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Stags Head</h5>
+                  <p class="card-text">
+                    The Stags Head is a traditional Irish pub with traditional
+                    Irish music and food in Dublin city centre. Enjoy a breath
+                    of fresh air when visiting the Stag’s Head, just a stones
+                    throw from the buzz of Grafton St. Here you will cross into
+                    a landmark with enough history it could occupy a library.
+                  </p>
+                </div>
+                <div class="card-footer text-muted">
+                  <div class="card-body">
+                    <a href="#" class="btn btn-info">See Inside 360 &deg;</a>
+                    <a href="#" class="btn btn-info">Website</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <img
+                  src="media/images/grogansHDR.jpg"
+                  class="card-img-top"
+                  alt="grogans pub"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Grogans Pub</h5>
+                  <p class="card-text">
+                    A warm and friendly atmosphere that you would expect from
+                    your local, but with the lively buzz and intensity of an
+                    authentic Dublin city pub. Relax with a drink and toastie
+                    Open 7 days a week, Grogans is the perfect spot to grab a
+                    light snack, a pint of porter or a pot of tea. Our famous
+                    toasties made with Irish cheddar cheese and traditional deli
+                    ham are available throughout the day and night. If you ask
+                    us for a ‘Special’ we guarantee that you will not be
+                    disappointed. Enjoy the conversation and atmosphere One of
+                    the few bars left where your conversation needn’t compete
+                    with a wide screen TV or stereo. Grogans is the perfect spot
+                    for catching up with friends or taking time out alone with
+                    the newspaper. With a varied clientele and good-humoured,
+                    friendly staff you can be sure of a warm welcome every
+                    visit.
+                  </p>
+                </div>
+                <div class="card-footer text-muted">
+                  <div class="card-body">
+                    <a href="#" class="btn btn-info">See Inside 360 &deg;</a>
+                    <a href="#" class="btn btn-info">Website</a>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <img
+                  src="media/images/kehoesBar.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Kehoes</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                </div>
+                <div class="card-footer text-muted">
+                  <div class="card-body">
+                    <a href="#" class="btn btn-info">See Inside 360 &deg;</a>
+                    <a href="#" class="btn btn-info">Website</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!--End of Cards Section-->
+    <!--- Footer-->
+    <footer class="main-footer container-fluid">
+      <div class="row">
+        <div class="col-sm-4 footer-icon">
+          <img src="./media/images/Logo.png" width="100" height="36px" />
+          <h5>Dublin-360 &copy;</h5>
+          Made with Bootstrap
+          <a
+            href="hhttps://getbootstrap.com/"
+            target="_blank"
+            id="bootstrap-image"
+            ><img
+              src="./media/images/Bootstrap/kindpng_278320.png"
+              alt="Bootstrap Image"
+          /></a>
+        </div>
+        <div class="col-sm-4 bg-color-footer-services footer-section-column">
+          <div class="row">
+            <div class="col-12">
+              <h5 class="services-heading uppercase">
+                Services Offered
+              </h5>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-2"></div>
+            <div class="services-items col-10">
+              <div class="service-item" data-services="Rev Mgmt">
+                <h5>Revenue Management</h5>
+                <p>Strategic Pricing & Pricing Intelligence</p>
+              </div>
+              <div class="service-item" data-services="Auto Pay">
+                <h5>Automated Payments</h5>
+                <p>Connection with Payment Gateways</p>
+              </div>
+              <div class="service-item" data-services="OTA->PMS">
+                <h5>OTA Connections & Audits</h5>
+                <p>Ensure correct content & Connections</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4 social-menu">
+          <div class="row">
+            <div class="col-12">
+              <h5 class="social-heading uppercase">
+                Social
+              </h5>
+            </div>
+          </div>
+          <ul class="social-list">
+            <li class="list-inline-item">
+              <a href="#" target="_blank"
+                ><i class="fab fa-facebook-square" aria-hidden="true"></i
+                >Facebook<span class="sr-only">Facebook</span></a
+              >
+            </li>
+            <li class="list-inline-item">
+              <a href="#" target="_blank"
+                ><i class="fab fa-instagram" aria-hidden="true"></i
+                >Instagram<span class="sr-only">Instagram</span></a
+              >
+            </li>
+            <li class="list-inline-item">
+              <a href="#" target="_blank"
+                ><i class="fab fa-linkedin" aria-hidden="true"></i>LinkedIn<span
+                  class="sr-only"
+                  >LinkedIn</span
+                ></a
+              >
+            </li>
+          </ul>
+        </div>
+      </main>
+    </footer>
+    <!--End of Footer-->
+    <!--- Bootstrap JQuery Popper JS-->
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
