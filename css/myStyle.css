@@ -163,6 +163,7 @@ hr{
 .main-footer{
     background-color: #333333;
     color: #fff;
+    margin-top: 30px;
     padding-top: 20px;
     min-height: 120px;
   
@@ -241,6 +242,29 @@ hr{
 
 }
 
+
+.social-list a:hover, .social-list i:hover {
+    color:sandybrown;
+
+}
+
+
+/*----Services------------*/
+
+.featurette-divider{
+    margin-top: 3em;
+    margin-bottom:3em;
+}
+
+.featurette-image-div{
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+}
+
+.featurette-body-text {
+    background-color: #222222;
+}
 /*-----Form CSS----------*/
 
 form{
@@ -248,6 +272,10 @@ form{
     margin: auto;
     padding-top: 20px;
     padding-bottom: 20px;
-    
+
 }
 
+#submitButton {
+    margin-bottom: 4px;
+    font-size: 1.5em;
+}
