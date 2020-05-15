@@ -2,6 +2,11 @@
 
 
 /* --Main Generic CSS----*/
+
+html {
+    scroll-behavior:smooth;
+  }
+  
 body{
     padding:0;
     font-family: 'Poppins', sans-serif;
@@ -48,15 +53,13 @@ i.fab {
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
-
    text-align: center;
    z-index: 1;
    margin-bottom: 20px;
-
-
 }
+
 .jumbotron-overlay{
-    background-color: rgba(36, 36, 49, 0.82);
+    background-color: rgba(36, 36, 49, 0.75);
     min-height: 50vh;
     z-index: 2;
 }
@@ -82,7 +85,7 @@ h2 {
 hr{
     background-color: red;
     max-width: 70%;
-    border-top: 4px solid rgba(0,0,0,.1);
+    border-top: 6px solid rgba(0, 0, 0, 0.2);
 }
 
 
@@ -146,8 +149,6 @@ hr{
 }
 
 
-
-
 /* --Button CSS----*/
 .btn{
     background-color: #333333;
@@ -178,50 +179,6 @@ hr{
     padding: 4px;
     width: 40px;
     height: 40px;
-}
-.service-item {
-    padding: 2.5em 2em 0em 2em;
-    position: relative;
-    color: #fafafa;
-    border-left: 1px solid;
-}
-
-.service-item p {
-    padding: 0;
-    margin: 0;
-}
-
-.service-item:before {
-    content: attr(data-services);
-    position: absolute;
-    left: 2.5em;
-    top: 2em;
-    display: block;
-    font-family: "Lato", sans-serif;
-    font-weight: 500;
-    font-size: 0.8em;
-    padding: 0;
-    margin: 0;
-}
-
-.service-item:after {
-    width: 12px;
-    height: 12px;
-    display: block;
-    top: 1.4em;
-    position: absolute;
-    left: -6px;
-    border-radius: 12px;
-    content: '';
-    background: #fafafa;
-}
-
-.service-item h5 {
-    font-size: 0.8em;
-}
-
-.service-item p {
-    font-size: 0.7em;
 }
 
 
@@ -267,10 +224,49 @@ hr{
     justify-content: center;
 }
 
-.featurette-body-text {
+.service-items {
     background-color: #222222;
+    padding:20px 0;
 }
-/*-----Form CSS----------*/
+.service-item {
+    padding: 2em 2em 1em 2em;
+    position: relative;
+    color: #fafafa;
+    border-left: 2px solid;
+}
+
+.service-item p {
+    padding: 0;
+    margin: 0;
+}
+
+.service-item:before {
+    content: attr(data-services);
+    position: absolute;
+    left: 2.5em;
+    top: 0.1em;
+    display: block;
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    font-size: 1.2em;
+    padding: 0;
+    margin: 0;
+}
+
+.service-item:after {
+    width: 14px;
+    height: 14px;
+    display: block;
+    top: 1.1em;
+    position: absolute;
+    left: -6px;
+    border-radius: 14px;
+    content: '';
+    background: #fafafa;
+}
+
+
+/*-----Contact Form CSS----------*/
 
 form{
     width: 70%;
