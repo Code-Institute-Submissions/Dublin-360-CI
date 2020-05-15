@@ -213,6 +213,7 @@ hr{
 
 /*----Services------------*/
 
+
 .featurette-divider{
     margin-top: 3em;
     margin-bottom:3em;
@@ -220,16 +221,17 @@ hr{
 
 .featurette-image-div{
     margin: auto;
+    padding-top: 20px;
     text-align: center;
     justify-content: center;
 }
 
 .service-items {
     background-color: #222222;
-    padding:20px 0;
+    padding:30px 0;
 }
 .service-item {
-    padding: 2em 2em 1em 2em;
+    padding: 2.5em 2em 1em 2em;
     position: relative;
     color: #fafafa;
     border-left: 2px solid;
@@ -244,11 +246,11 @@ hr{
     content: attr(data-services);
     position: absolute;
     left: 2.5em;
-    top: 0.1em;
+    top: 0.5em;
     display: block;
     font-family: "Lato", sans-serif;
     font-weight: 500;
-    font-size: 1.2em;
+    font-size: 1em;
     padding: 0;
     margin: 0;
 }
@@ -257,7 +259,7 @@ hr{
     width: 14px;
     height: 14px;
     display: block;
-    top: 1.1em;
+    top: 2.1em;
     position: absolute;
     left: -6px;
     border-radius: 14px;
