@@ -76,27 +76,41 @@
       </div>
       <!--end of Jumbotron-->
       <!----Contact Form------>
-      <form>
-        <div class="form-group">
-        <label for="email">Email address</label>
-        <input type="email" class="form-control" id="email" placeholder="name@example.com">
+      <form action="" method="POST">
+        <div class="form-row">
+          <div class="col">
+            <div class="form-group required">
+        <label for="firstName" class="control-label">First Name</label>
+        <input  type="input" class="form-control" id="firstName" placeholder="First Name" required>
+      </div>
+    </div>
+      <div class="col">
+        <div class="form-group required">
+        <label for="lastName" class="control-label">Last Name</label>
+        <input type="input" class="form-control" id="lastName" placeholder="Last Name" required>
+        </div>
+      </div>
+    </div>
+      <div class="form-group required">
+        <label class="control-label" for="email">Email address</label>
+        <input type="email" class="form-control" id="email" placeholder="name@example.com" required>
       </div>
       <div class="form-group">
         <label for="formSelect">Select a Subject</label>
         <select class="form-control" id="formSelect">
-          <option>Suggest a 360&deg; Attraction</option>
-          <option>Hospitality Consultancy Services</option>
+          <option id="option1">Hospitality Services</option>
+          <option id="option2">Suggest a 360&deg; Attraction</option>
         </select>
       </div>
-      <div class="form-group">
-        <label for="messageBody">Message</label>
-        <textarea class="form-control" id="messageBody" rows="4" placeholder="Send us a message Here!"></textarea>
+      <div class="form-group required">
+        <label class="control-label" for="messageBody">Message</label>
+        <textarea class="form-control" id="messageBody" rows="5" placeholder="Send us a message Here!" required></textarea>
       </div>
       <div class="text-center">
       <button type="submit" class="btn btn-info" id="submitButton">Send Request</button>
     </div>
     </form> <!---end of form-->
-  
+  </main>
     <!--- Footer-->
     <footer class="main-footer container-fluid">
       <div class="row">
@@ -125,19 +139,19 @@
           </div>
           <ul class="social-list">
             <li class="list-inline-item">
-              <a href="#" target="_blank"
+              <a href="https://www.facebook.com/Dublin360/" target="_blank"
                 ><i class="fab fa-facebook-square" aria-hidden="true"></i
                 ><span class="sr-only">Facebook</span></a
               >
             </li>
             <li class="list-inline-item">
-              <a href="#" target="_blank"
+              <a href="https://www.instagram.com/dublin360/" target="_blank"
                 ><i class="fab fa-instagram" aria-hidden="true"></i
                 ><span class="sr-only">Instagram</span></a
               >
             </li>
             <li class="list-inline-item">
-              <a href="#" target="_blank"
+              <a href="https://www.linkedin.com/in/dermotmurphyirl/" target="_blank"
                 ><i class="fab fa-linkedin" aria-hidden="true"></i><span
                   class="sr-only"
                   >LinkedIn</span
@@ -146,7 +160,6 @@
             </li>
           </ul>
         </div>
-      </main>
     </footer> <!--End of Footer-->
 
     <!--- Bootstrap JQuery Popper JS-->

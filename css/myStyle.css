@@ -278,6 +278,19 @@ form{
 
 }
 
+form label{
+    font-size: 1.2em;
+    margin-top: 4px;
+    text-transform: capitalize;
+    
+
+}
+
+.form-group.required .control-label:after {
+    content:"*";
+    color:red;
+  }
+
 #submitButton {
     margin-bottom: 4px;
     font-size: 1.5em;
