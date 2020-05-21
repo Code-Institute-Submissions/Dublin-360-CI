@@ -1,8 +1,9 @@
 <img src="./media/images/stagsHead.png" style="margin: 0;">
 
 # Dublin-360-CI
+Milestone 1 Project: Code Institute:
 
-A Site to showcase 360 Degree Views of popular Dublin City tourist attractions and to showcase the hospitality skills and consultancy available from Dublin-360
+A Site to showcase 360 Degree Views of popular Dublin City tourist attractions and to showcase the hospitality skills and consultancy sercices available to hospitality customers from Dublin-360
  
 ## UX
 
@@ -63,13 +64,14 @@ Testing done on VSCode Using Live server.
     1. Go to the "Contact Us" page
     2. Try to submit the empty form and verify that an error message about the required fields appears
     3. Try to submit the form with an invalid email address type and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a the form Success page message appears.
+    4. Try to submit the form with all inputs valid and verify that a the form Success page message appears. PHP not allowed on GitHub so contact form only Front end only.
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+Media Queries Break Screens smaller than 860px:
+- Icons on services page reduce 50% in size
+- Main logo reduces 50% in size
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+Contact Form still needs to be connected to backend mailing system to received data
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
 ## Deployment
 Deployed using GitHub Pages accessed via the link below
@@ -80,7 +82,8 @@ Deployed using GitHub Pages accessed via the link below
 ## Credits
 
 ### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+- Main Text Written by Dermot Murphy
+- Some text for section Cards on Home was copied from [Wikipedia](https://en.wikipedia.org/wiki/) Descriptions
 
 ### Media
 - The photos used in this site were obtained from either Dermot Murphy or 
