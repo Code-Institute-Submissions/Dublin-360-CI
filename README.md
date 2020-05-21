@@ -1,4 +1,4 @@
-<img src="Dublin-360-CI/media/images/stagsHead.png" style="margin: 0;">
+<img src="./media/images/stagsHead.png" style="margin: 0;">
 
 # Dublin-360-CI
 
@@ -49,17 +49,20 @@ Contact Page - Main Contact form for Contacting Dublin-360 with message and topi
 
 ## Testing
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+Testing done on VSCode Using Live server.
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
-
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+- All page/card/footer links were tested to open in seperate window.
+- Navigation Buttons and Navbar links tested to navigate to specific pages.
+- Various screen sizes also tested from large screen to mobile.
+- Scrollable categories tested for each section.
+- Services page - stacking of elements on smaller screens.
+- Navbar Hamburger menu showing on mobile.
 
 1. Contact form:
     1. Go to the "Contact Us" page
     2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
+    3. Try to submit the form with an invalid email address type and verify that a relevant error message appears
+    4. Try to submit the form with all inputs valid and verify that a the form Success page message appears.
 
 In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
 
