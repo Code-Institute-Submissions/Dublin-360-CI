@@ -35,6 +35,18 @@ nav {
     padding-left:0;
 }
 
+h2 {
+    display: block;
+    font-size: 1.5em;
+    font-weight: 800;
+}
+
+hr{
+    background-color: red;
+    max-width: 70%;
+    border-top: 6px solid rgba(0, 0, 0, 0.2);
+}
+
 /*-- custom styling for all icons --*/
 i.fas,
 i.fab {
@@ -69,27 +81,18 @@ i.fab {
     padding-top: 120px;
 }
 
+.title-logo .image{
+    width: 225px;
+    height:80px;
+}
+
 .lead {
     padding: 20px;
 }
 
-h2 {
-    display: block;
-    font-size: 1.5em;
-    margin-block-start: 0.83em;
-    margin-block-end: 0.83em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: 800;
-}
-hr{
-    background-color: red;
-    max-width: 70%;
-    border-top: 6px solid rgba(0, 0, 0, 0.2);
-}
 
 
-/* --Categories CSS----*/
+/*-- Categories Tab CSS----*/
 .categories-tab {
     width: 65%;
     margin: auto;
@@ -106,7 +109,7 @@ hr{
 }
 
 
-/* --Cards CSS----*/
+/*-- Main Cards CSS----*/
 .card{
     background-color: #333333;
     margin-bottom: 6px;
@@ -149,7 +152,7 @@ hr{
 }
 
 
-/* --Button CSS----*/
+/*-- Button CSS----*/
 .btn{
     background-color: #333333;
     border-color:aliceblue;
@@ -165,7 +168,7 @@ hr{
 }
 
 
-/* --Footer CSS----*/
+/* --Main Footer CSS----*/
 .main-footer{
     background-color: #333333;
     color: #fff;
@@ -211,7 +214,7 @@ hr{
 }
 
 
-/*----Services------------*/
+/*----Services Page ------------*/
 
 
 .featurette-divider{
@@ -224,6 +227,11 @@ hr{
     padding-top: 20px;
     text-align: center;
     justify-content: center;
+}
+
+.featurette-icon {
+    width: 300;
+    height: 300;
 }
 
 .service-items {
@@ -267,7 +275,27 @@ hr{
     background: #fafafa;
 }
 
+/*--Media Queries--*/
+@media only screen and (max-width: 860px) {
+    .fa-8x {
+        font-size: 4em;
+    }
 
+    .title-logo{
+        padding-top: 80px;
+    }
+
+    .title-logo .image {
+        width: 112.5px;
+        height: 40px;
+    }
+
+    .categories-tab {
+        width: 80%;
+        margin: auto;
+    }
+    
+  }
 /*-----Contact Form CSS----------*/
 
 form{
