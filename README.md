@@ -15,7 +15,7 @@ There is also a contact form available so they can either suggest a feature or e
 
 
 Link to conceptual Wireframe:
-- wireframe/Scan 12 May 2020.pdf
+- https://dermomurphy.github.io/Dublin-360-CI/wireframe/Scan%2012%20May%202020.pdf
 
 ## Features
 
@@ -44,8 +44,9 @@ Contact Page - Main Contact form for Contacting Dublin-360 with message and topi
     - Built with Bootstrap Twitter framework
 
 - [JQuery](https://jquery.com)
-    - The project uses **JQuery** to simplify DOM manipulation.
-
+    - The project uses **JQuery** to simplify DOM manipulation as part of Bootstrap Twitter framework
+- [Popper] (https://www.npmjs.com/package/popper.js/v/1.14.3)
+  - As Part of Bootstrap Twitter framerwork
 
 ## Testing
 
