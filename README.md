@@ -70,7 +70,7 @@ Media Queries Break Screens smaller than 860px:
 - Icons on services page reduce 50% in size
 - Main logo reduces 50% in size
 
-Contact Form still needs to be connected to backend mailing system to received data
+Contact Form still needs to be connected to backend mailing system to receive data
 
 
 ## Deployment
