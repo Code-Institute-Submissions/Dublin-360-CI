@@ -20,7 +20,7 @@ p{
 }
 nav {
     display: block;
-    width: 90%;
+    width: 100%;
     text-align: center;
     margin: auto;
     padding: 10px;
@@ -94,14 +94,23 @@ i.fab {
 
 /*-- Categories Tab CSS----*/
 .categories-tab {
-    width: 65%;
-    margin: auto;
+    width: 100%;
+    padding-left:0;
+    padding-right:0;
+}
+.categories-row div {
+  padding-left:0;
+  padding-right:0;
+  margin-right:0;
+  margin-left:0;
+
+
 }
 .list-group-item.active{
     background-color: #333333;
 }
 .list-group-item i{
-    font-size: 1.5em;
+    font-size: 0.9em;
 }
 
 .list-group-item a{
@@ -131,6 +140,11 @@ i.fab {
 .card-img, .card-img-bottom, .card-img-top {
     object-fit: cover;
     height: 200px;
+}
+
+.card-body{
+    max-height: 200px;
+    overflow-y: scroll;
 }
 
 .card-text {
@@ -290,9 +304,10 @@ i.fab {
         height: 40px;
     }
 
-    .categories-tab {
-        width: 80%;
-        margin: auto;
+    #categories {
+        width: 90%;
+        margin:auto;
+       
     }
     
   }
