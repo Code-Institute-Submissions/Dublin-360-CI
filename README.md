@@ -41,12 +41,12 @@ Services Page - Media Card landscape style listing main features available with 
 
 ## Technologies Used
 
-- [Bootstrap] (https://getbootstrap.com/)
+- [Bootstrap](https://getbootstrap.com/)
     - Built with Bootstrap Twitter framework
 
 - [JQuery](https://jquery.com)
     - The project uses **JQuery** to simplify DOM manipulation as part of Bootstrap Twitter framework
-- [Popper] (https://www.npmjs.com/package/popper.js/v/1.14.3)
+- [Popper](https://www.npmjs.com/package/popper.js/v/1.14.3)
   - As Part of Bootstrap Twitter framerwork
 
 -  [Visual Studio Code](https://code.visualstudio.com/): Programming code editor created by Microsoft.
