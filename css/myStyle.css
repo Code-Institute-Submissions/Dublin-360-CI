@@ -232,13 +232,14 @@ i.fab {
 
 
 .featurette-divider{
-    margin-top: 3em;
-    margin-bottom:3em;
+    margin-top: 1em;
+    margin-bottom:1em;
 }
 
 .featurette-image-div{
     margin: auto;
-    padding-top: 20px;
+    padding-top: 10px;
+    padding-bottom:20px;
     text-align: center;
     justify-content: center;
 }
@@ -253,7 +254,7 @@ i.fab {
     padding:30px 0;
 }
 .service-item {
-    padding: 2.5em 2em 1em 2em;
+    padding: 3.5em 2em 1em 2em;
     position: relative;
     color: #fafafa;
     border-left: 2px solid;
