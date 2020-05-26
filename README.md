@@ -49,6 +49,11 @@ Services Page - Media Card landscape style listing main features available with 
 - [Popper] (https://www.npmjs.com/package/popper.js/v/1.14.3)
   - As Part of Bootstrap Twitter framerwork
 
+-  [Visual Studio Code](https://code.visualstudio.com/): Programming code editor created by Microsoft.
+
+- [Github](https://github.) Hosting for software development version control using Git.
+
+
 ## Testing
 http://ami.responsivedesign.is/  Used to Test site across multiple viewports:
 **Viewports**
@@ -95,11 +100,12 @@ Deployed using GitHub Pages accessed via the link below
 
    3. To publish the project to see it on the web go to Settings on Repo , scroll down to the heading, GitHub Pages. Under the Source setting, Use drop-down menu to select master branch as a publishing source and save. Refreshed the github page, and you are then given a url where your page is published; The site is now published at 
 
-    4. To run this code on your local machine, you would go to my respository at https://github.com/Dermomurphy/Dublin-360-CI and on the home page on the right hand side just above all the files, you will see a green button that says, "Clone or download", this button will give you options to clone with HTTPS, open in desktop or download as a zip file. Then --> 
+    4. To run this code on your local machine, you would go to my respository at https://github.com/Dermomurphy/Dublin-360-CI and on the home page on the right hand side just above all the files, you will see a green button that says, "Clone or download", this button will give you options to clone with HTTPS, open in desktop or download as a zip file. Then --> click the clipboard item to copy the Https address of the repo.
 
-    Open Git Bash
-    CD to working directory to the location where you want the cloned directory to be made.
-    Type git clone, and then paste this URL: https://github.com/Dermomurphy/Dublin-360-CI.git Press Enter. The clone is created.
+    Open Git Bash/Terminal:
+    CD the working directory to the location where you want the cloned directory to be made.
+    you can use mkdir command to make a new directory, then cd into it.
+    Type git clone, and then paste the URL: https://github.com/Dermomurphy/Dublin-360-CI.git Press Enter. The clone is created.
 
     For more information about the above process; https://help.github.com/en/github/using-git/which-remote-url-should-i-use
 
