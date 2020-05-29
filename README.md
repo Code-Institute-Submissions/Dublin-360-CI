@@ -55,7 +55,7 @@ Link to conceptual Wireframe:
 - [Visual Studio Code](https://code.visualstudio.com/): Programming code editor created by Microsoft.
 
 - [Github](https://github.) Hosting for software development version control using Git.
-- [W3CMarkupValidation](https://validator.w3.org/ https://jigsaw.w3.org/css-validator/validator) Tools to assess CSS and HTML validation.
+- [W3CMarkupValidation](https://validator.w3.org/) Tools to assess CSS and HTML validation.
 - [Metatags](https://metatags.io/) Generation of Meta tag content for social media sharing and SEO.
 - [GoogleFonts](https://fonts.google.com/) - font families from Google.
 - [FontAwesome](https://fontawesome.com/) - Icons imported via fontawesome css.
