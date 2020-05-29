@@ -21,7 +21,7 @@ Link to conceptual Wireframe:
 ## Features
 
 **Main Home Page** - Main Content Cards for Dublin Landmarks broken into sections with links to Each 360 image and website of the tourist atttraction.
-Services Page - Media Card landscape style listing main features available with associated FA Icons alternating in style.
+**Services Page** - Media Card landscape style listing main features available with associated FA Icons alternating in style.
 **Contact Page** - Main Contact form for Contacting Dublin-360 with message and topic area
  
 ### Existing Features
@@ -32,12 +32,13 @@ Services Page - Media Card landscape style listing main features available with 
 - **Contact Form** - A way to send a suggestion on a 360 attraction or ask for a consultation.
 - **Services Section** - Showcases Services offered
 - **Social Media Links** - Links to all social media content in footer.
-- **Made With Bootrap** - Link in footer
+- **Made With Bootrap** - Link in footer to bootstrap framework Documentation
 
 
 
 ### Features Left to Implement
 - Using Matterport Host and implement own 360 images of all attractions in the city.
+- Add Functionality to Contact Form. - PHP file text on success page.
 
 ## Technologies Used
 
@@ -49,14 +50,17 @@ Services Page - Media Card landscape style listing main features available with 
 - [Popper](https://www.npmjs.com/package/popper.js/v/1.14.3)
   - As Part of Bootstrap Twitter framerwork
 
--  [Visual Studio Code](https://code.visualstudio.com/): Programming code editor created by Microsoft.
+- [Visual Studio Code](https://code.visualstudio.com/): Programming code editor created by Microsoft.
 
 - [Github](https://github.) Hosting for software development version control using Git.
-- [Metatags](https://metatags.io/) Generation of Meta tag content for social media sharing and SEO
+- [W3CMarkupValidation](https://validator.w3.org/ https://jigsaw.w3.org/css-validator/validator) Tools to assess CSS and HTML validation.
+- [Metatags](https://metatags.io/) Generation of Meta tag content for social media sharing and SEO.
+- [GoogleFonts](https://fonts.google.com/) - font families from Google.
+- [FontAwesome](https://fontawesome.com/) - Icons imported via fontawesome css.
 
 ## Testing
+**Viewports/Responsiveness**
 http://ami.responsivedesign.is/  Used to Test site across multiple viewports:
-**Viewports**
 Desktop
     1600x992px scaled down to scale(0.3181)
 Laptop
@@ -66,6 +70,7 @@ Tablet
 Mobile
     320x480px scaled down to scale(0.219) 
 
+**Functional Testing**
 Testing done on VSCode Using Live server.- Mobile responsiveness also tested live
 
 - All page/card/footer links were tested to open in seperate window.
@@ -79,13 +84,16 @@ Testing done on VSCode Using Live server.- Mobile responsiveness also tested liv
     1. Go to the "Contact Us" page
     2. Try to submit the empty form and verify that an error message about the required fields appears
     3. Try to submit the form with an invalid email address type and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a the form Success page message appears. PHP not allowed on GitHub so contact form only Front end only.
-
+    4. Try to submit the form with all inputs valid and verify that a the form Success page message appears. PHP not allowed on GitHub so contact form only Front end only, to implement use stated PHP code and point to PHP file.
+**Media Queries**
 Media Queries Break Screens smaller than 860px:
 - Icons on services page reduce 50% in size
-- Main logo reduces 50% in size
+- Main logo reduces 50% in size.
 
-Contact Form still needs to be connected to backend mailing system to receive data
+**Issues**
+- Current: Contact Form still needs to be connected to backend mailing system to receive data.
+- Resolved: Stacking of Icons on services page was stacking text first then logo, reversed and ordered to fix.
+- Resolved: Logo sizes too large on small screens. added medi queries to adjust sizes.
 
 
 ## Deployment
