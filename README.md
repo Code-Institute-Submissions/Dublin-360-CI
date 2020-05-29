@@ -21,7 +21,9 @@ Link to conceptual Wireframe:
 ## Features
 
 **Main Home Page** - Main Content Cards for Dublin Landmarks broken into sections with links to Each 360 image and website of the tourist atttraction.
+
 **Services Page** - Media Card landscape style listing main features available with associated FA Icons alternating in style.
+
 **Contact Page** - Main Contact form for Contacting Dublin-360 with message and topic area
  
 ### Existing Features
