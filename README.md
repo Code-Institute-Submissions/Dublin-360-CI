@@ -121,6 +121,7 @@ Deployed using GitHub Pages accessed via the link below
 - Main Text Written by Dermot Murphy
 - Some text for section Cards on Home was copied from [Wikipedia](https://en.wikipedia.org/wiki/) Descriptions
 - Google Fonts for font styles; https://fonts.google.com/
+- W3schools.com: for code used on contact form page and implementation if necessary.[W3Schools](https://www.w3schools.com/)
 
 ### Media
 - The photos used in this site were obtained from either Dermot Murphy or 
@@ -132,4 +133,4 @@ https://www.wikipedia.org/
 
 - Mentor Adegbenga Adeye:  for site layout inspiration, constructive advice. Github : https://github.com/deye9
 
-- Code Institute : for instructional videos and Tutoring. https://codeinstitute.net/
+- Code Institute : for instructional videos and Tutoring/support slack channel. https://codeinstitute.net/
