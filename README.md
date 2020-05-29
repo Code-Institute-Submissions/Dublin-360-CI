@@ -52,7 +52,7 @@ Services Page - Media Card landscape style listing main features available with 
 -  [Visual Studio Code](https://code.visualstudio.com/): Programming code editor created by Microsoft.
 
 - [Github](https://github.) Hosting for software development version control using Git.
-
+- [Metatags](https://metatags.io/) Generation of Meta tag content for social media sharing and SEO
 
 ## Testing
 http://ami.responsivedesign.is/  Used to Test site across multiple viewports:
@@ -122,4 +122,4 @@ https://www.wikipedia.org/
 
 - Mentor Adegbenga Adeye:  for site layout inspiration, constructive advice. Github : https://github.com/deye9
 
-- Code Institure : for instructional videos and Tutoring. https://codeinstitute.net/
+- Code Institute : for instructional videos and Tutoring. https://codeinstitute.net/
