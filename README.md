@@ -1,4 +1,4 @@
-<img src="./media/images/amiResponsiveDublin360.png" style="margin: 0;">
+<img src="assets/media/images/amiResponsiveDublin360.png" style="margin: 0;">
 
 # Dublin-360-CI
 Milestone 1 Project: Code Institute:
