@@ -29,8 +29,8 @@ Services Page - Media Card landscape style listing main features available with 
 - **Featured Image** - Featured image on each Card for each attraction.
 - **Link to 360 content** - 360 Degree Content on each card.
 - **Link to appropriate website** - Each card has a link to appropriate website where applicable.
-- **Contact Form**
-- **Services Section**
+- **Contact Form** - A way to send a suggestion on a 360 attraction or ask for a consultation.
+- **Services Section** - Showcases Services offered
 - **Social Media Links** - Links to all social media content in footer.
 - **Made With Bootrap** - Link in footer
 
